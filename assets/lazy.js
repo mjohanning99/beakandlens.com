@@ -134,8 +134,8 @@
   });
   
   echo.init({
-    offset: 2500,
-    throttle: 250,
+    offset: 250,
+    throttle: 100,
     unload: false,
     callback: function (element, op) {
       //console.log(element, 'has been', op + 'ed')

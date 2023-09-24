@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>{{ page.title }}</title>
+	<link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  
+  <header>
+	  {% include header.html %}
+	  <fieldset class="separator-styled radius"></fieldset>
+	  
+	  <div align="center">
+	   	<h1 style="margin-bottom: 0;">{{ page.heading }}</h1>
+	   	<h3 style="margin: 0;">{{ page.subtitle }}</h3>
+	   	<br>
+		
+			{% if page.with_image %}
+ 			<img src="{{ page.image }}", width="300", height="350">
+ 	  	<br>
+ 	 	 	<i>{{ page.image_subtitle }}</i>
+ 	  	<br>
+			{% endif %}
+		
+	  </div>
+	  
+	  <div class="article">
+	    <p>{{page.intro}}</p>
+	  </div>
+  </header>
+  
+  <div class="separator">{{ page.separator }}</div>
+  
+  <body>
+	  {{ content }}
+  </body>
+  
+  <footer>
+	  {% include footer.html %}
+  </footer>
+</html>

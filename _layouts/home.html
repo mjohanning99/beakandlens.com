@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/assets/css/styles.css">
+		<link rel="stylesheet" href="/assets/css/gallery.css">
+		<script src="/assets/lazy.js"></script>
+  </head>
+  
+  <header>
+	  {% include header.html %}
+	  
+	  <fieldset class="separator-styled radius"></fieldset>
+	  
+	  <div align="center">
+	    <h1 style="margin-bottom: 0;">Beak and Lens Photography</h1>
+	    <h3 style="margin: 0;">Wildlife and Bird Photography — by Marvin Johanning</h3>
+		<br>
+		
+		<img src="/assets/images/header.jpg", width="600", height="350">
+	   <br>
+	   <i>A Yellow-Winged Pytilia at the Berlin Zoo</i>
+	   <br>
+	  </div>
+  </header>
+  
+  <div class="article">
+    <p>Welcome to Beak and Lens Photography. Beak and Lens Photography is run by Marvin Johanning, a hobbyist wildlife (mostly birds) photographer from Bielefeld, Germany. I am also on Instagram. For more information about me, see the About page. </p>
+	
+	<p>If you want to see my favourite photos in a rather random order, just continue scrolling down! </p>
+  </div>
+  
+  <div class="separator separator2">
+      PHOTOS
+  </div>
+
+	<body>
+		{% include gallery.html %}
+	</body>
+
+	<footer>
+		{% include footer.html %}
+	</footer>
+</html>

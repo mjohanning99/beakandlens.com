@@ -25,6 +25,8 @@
   --colour3: #4e587b; 
   --colour4: #5d5d5d;
   --colour5: #0e1a40; 
+
+  --bg-color: white;
 }
 
 /* Colour varibles summer
@@ -44,6 +46,8 @@
     --colour3: #ffcc80;
     --colour4: #ffc046;
     --colour5: #c56000;
+
+    --bg-color: #242424;
 
     background: #242424;
     color: #F5F5F5;
@@ -67,6 +71,12 @@
   .separator-styled legend {
     color: white;
   }
+  .button1 {
+    color: white;
+  }
+  .button {
+    color: white;
+  }
 }
 
 /* Light mode */
@@ -87,6 +97,12 @@
   }
   .separator-styled legend {
     color: #000;
+  }
+  .button1 {
+    color: black;
+  }
+  .button {
+    color: black;
   }
 }
 
@@ -731,7 +747,6 @@ img.no {
 .button {
   background-color: var(--colour1); /* Green */
   border: none;
-  color: white;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -743,8 +758,7 @@ img.no {
 }
 
 .button1 {
-  background-color: white; 
-  color: black; 
+  background-color: var(--bg-color); 
   border: 5px double var(--colour1);
   width: 100%;
 }

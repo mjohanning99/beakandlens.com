@@ -1,0 +1,56 @@
+{% assign column1 = "" | split: ',' %}
+{% assign column2 = "" | split: ',' %}
+{% assign column3 = "" | split: ',' %}
+
+{% for image in site.static_files reversed %}
+	{% if image.path contains 'images/gallery' %}
+		{% if image.path contains 'blank.jpg' %}
+		
+		{% else %}
+			{% assign mod = forloop.index | modulo: 3 %}
+
+			{% if mod == 1 %}
+				{% assign column1 = column1 | push: image.path %}
+
+			{% elsif mod == 2 %}
+				{% assign column2 = column2 | push: image.path %}
+
+			{% else %}
+				{% assign column3 = column3 | push: image.path %}
+			
+			{% endif %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+
+<div class="gallery-row">
+	<div class="gallery-column">
+		{% for image in column1 %}
+		<div>
+			<a href="{{image}}">
+			<img src="/assets/images/blank.jpg" alt="" data-echo="{{image}}" width="100%" height="auto">
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+
+	<div class="gallery-column">
+		{% for image in column2 %}
+		<div>
+			<a href="{{image}}">
+			<img src="/assets/images/blank.jpg" alt="" data-echo="{{image}}" width="100%" height="auto">
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+
+	<div class="gallery-column">
+		{% for image in column3 %}
+		<div>
+			<a href="{{image}}">
+			<img src="/assets/images/blank.jpg" alt="" data-echo="{{image}}" width="100%" height="auto">
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</div>

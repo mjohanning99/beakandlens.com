@@ -28,7 +28,7 @@
   </header>
   
   <div class="article">
-    <p>Welcome to Beak and Lens Photography. Beak and Lens Photography is run by Marvin Johanning, a hobbyist wildlife (mostly birds) photographer from Bielefeld, Germany. I am also on Instagram, Mastodon and Flickr! For more information about me, see the About page. If you want to see my favourite photos in a rather random order, just continue scrolling down! There is an endlessly loading gallery just below — well, perhaps it is not quite unending as it does end when it runs out of photos to display. </p>
+    <p>Welcome to Beak and Lens Photography. Beak and Lens Photography is run by Marvin Johanning, a hobbyist wildlife (mostly birds) photographer from Bielefeld, Germany. I am also on Instagram, Mastodon and Flickr! For more information about me, see the About page. If you want to see some of my favourite photos in a rather random order, just continue scrolling down! Once you reach the end, you can click the button to see all of my photos or simply click the <a href="/gallery">Gallery</a> link in the menu at the top left. </p>
   </div>
   
   <div class="separator separator2">
@@ -36,7 +36,10 @@
   </div>
 
 	<body>
-		{% include gallery.html %}
+		{% include gallery-home.html %}
+		<div class="gallery-button">
+			<a href="/gallery" class="button button1">Click to see more</a>
+		</div>
 	</body>
 
 	<footer>

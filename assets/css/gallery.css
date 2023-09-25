@@ -13,6 +13,16 @@
   border-top: none;
 }
 
+.gallery-button {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 /* Create four equal columns that sits next to each other */
 .gallery-column {
   -ms-flex: 33.33%; /* IE10 */
@@ -24,7 +34,6 @@
 .gallery-column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

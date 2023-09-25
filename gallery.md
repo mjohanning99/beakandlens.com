@@ -1,10 +1,10 @@
 ---
 layout: gallery
-title: Equipment
-heading: My equipment
-subtitle: Some more in-depth information about me!
+title: Photo Gallery
+heading: Photo Gallery
+subtitle: All of my favourite photos!
 separator: PHOTOS
 
-intro: Welcome to the about page! Here you will find some more in-depth information about myself and this website. If you are confused as to the design of the website, you will also find some answers here! 
+intro: You have reached the photo gallery. Here you will find an endlessly scrolling page full of my favourite photos. These aren't ordered in any particular way. Simply continue scrolling until you reach the end if you wish to see all of my favourite photos! 
 permalink: /gallery/
 ---

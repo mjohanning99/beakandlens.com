@@ -3,6 +3,7 @@ layout: page
 title: About
 heading: About Me
 subtitle: Some more in-depth information about me!
+meta_description: A page with information about me, Marvin Johanning.
 
 with_image: true
 image: /assets/images/me.jpg

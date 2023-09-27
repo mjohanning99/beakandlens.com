@@ -6,46 +6,25 @@
 --colour5 -> drop caps 
 */
 
-/* Colour variables autumn
+/* Colour variables standard */
 :root {
-  --colour1: #454140;
-  --colour2: #bd5734;
-  --colour3: #a79e84;
-  --colour4: #7a3b2e;
-} */
-
-/* Colour testing
-:root {
-} */
-
-/* Colour variables dark */
-:root {
-  --colour1: #0e1a40; 
-  --colour2: #946b2d; 
-  --colour3: #4e587b; 
-  --colour4: #5d5d5d;
-  --colour5: #0e1a40; 
+  --colour1: #5F8D4E;
+  --colour2: #5F8D4E;
+  --colour3: #A4BE7B;
+  --colour4: #285430;
+  --colour5: #285430;
 
   --bg-color: white;
 }
 
-/* Colour varibles summer
-:root {
-  --colour1: #A0204C; 
-  --colour2: #23103A;
-  --colour3: #23103A;
-  --colour4: #543864;
-} */
-
-
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --colour1: #c56000;
-    --colour2: #ffcc80;
-    --colour3: #ffcc80;
-    --colour4: #ffc046;
-    --colour5: #c56000;
+    --colour1: #5F8D4E;
+    --colour2: #5F8D4E;
+    --colour3: #A4BE7B;
+    --colour4: #285430;
+    --colour5: #285430;
 
     --bg-color: #242424;
 
@@ -648,7 +627,7 @@ div.heading-greek {
 
 .separator2::before,
 .separator2::after {
-  border-bottom: 5px black double;
+  border-bottom: 5px var(--colour5) double;
 }
 
 .separator::before,
@@ -745,7 +724,7 @@ img.no {
 }
 
 .button {
-  background-color: var(--colour1); /* Green */
+  background-color: var(--colour5); /* Green */
   border: none;
   padding: 16px 32px;
   text-align: center;
@@ -759,12 +738,13 @@ img.no {
 
 .button1 {
   background-color: var(--bg-color); 
-  border: 5px double var(--colour1);
+  border: 5px double var(--colour5);
+  border-radius: 25px;
   width: 100%;
 }
 
 .button1:hover {
-  background-color: var(--colour1);
+  background-color: var(--colour5);
   color: white;
 }
 

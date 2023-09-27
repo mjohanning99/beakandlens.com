@@ -4,13 +4,13 @@
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 10px;
-  margin-top: -8.5px;
+  margin-top: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-left: 150px;
   margin-right: 150px;
-  border: 5px black double;
-  border-top: none;
+  border: 5px #285430 double;
+  border-radius: 25px;
 }
 
 .gallery-button {

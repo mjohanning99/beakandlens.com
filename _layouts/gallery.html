@@ -10,41 +10,41 @@
 		<link rel="stylesheet" href="/assets/css/gallery.css">
 		<script src="/assets/lazy.js"></script>
   </head>
-  
-  <header>
-	  {% include header.html %}
-	  <fieldset class="separator-styled radius"></fieldset>
-	  
-	  <div align="center">
-	   	<h1 style="margin-bottom: 0;">{{ page.heading }}</h1>
-	   	<h3 style="margin: 0;">{{ page.subtitle }}</h3>
-	   	<br>
+ 
+	<body>
+		<header>
+			{% include header.html %}
+			<fieldset class="separator-styled radius"></fieldset>
+			
+			<div align="center">
+				<h1 style="margin-bottom: 0;">{{ page.heading }}</h1>
+				<h3 style="margin: 0;">{{ page.subtitle }}</h3>
+				<br>
+			
+				{% if page.with_image %}
+				<img src="{{ page.image }}", width="300", height="350">
+				<br>
+				<i>{{ page.image_subtitle }}</i>
+				<br>
+				{% endif %}
+			
+			</div>
+			
+			<div class="article">
+				<p>{{page.intro}}</p>
+			</div>
+		</header>
 		
-			{% if page.with_image %}
- 			<img src="{{ page.image }}", width="300", height="350">
- 	  	<br>
- 	 	 	<i>{{ page.image_subtitle }}</i>
- 	  	<br>
-			{% endif %}
-		
+		<div class="separator">
+			<img src="/assets/icons/oystercatcher.png">
+				{{ page.separator }}
+			<img src="/assets/icons/oystercatcher.png">
 		</div>
-	  
-	  <div class="article">
-	    <p>{{page.intro}}</p>
-	  </div>
-  </header>
-  
-  <div class="separator">
-		<img src="/assets/icons/oystercatcher.png">
-			{{ page.separator }}
-		<img src="/assets/icons/oystercatcher.png">
-	</div>
-  
-  <body>
+		
 		{% include gallery-full.html %}
-  </body>
-  
-  <footer>
-	  {% include footer.html %}
-  </footer>
+		
+		<footer>
+			{% include footer.html %}
+		</footer>
+	</body>
 </html>

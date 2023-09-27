@@ -751,3 +751,11 @@ img.no {
 a.button {
   font-size: 25px;
 }
+
+body {
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: 5%; 
+  margin-right: 5%;
+  padding: 10px;
+}

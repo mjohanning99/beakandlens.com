@@ -623,7 +623,7 @@ div.heading-greek {
   margin: 0px 150px 0;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
 	.separator2 {
 	  margin: 0;
 	}

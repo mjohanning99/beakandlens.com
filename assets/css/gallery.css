@@ -43,7 +43,7 @@
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
   .gallery-column {
     -ms-flex: 100%;
     flex: 100%;
@@ -51,6 +51,18 @@
     padding: 0 4px;
   }
   
+  .gallery-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .gallery-button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
   .gallery-row {
     margin-left: 0;
     margin-right: 0;

@@ -23,8 +23,8 @@
     --colour1: #5F8D4E;
     --colour2: #5F8D4E;
     --colour3: #A4BE7B;
-    --colour4: #285430;
-    --colour5: #285430;
+    --colour4: #A4BE7B;
+    --colour5: #5F8D4E;
 
     --bg-color: #242424;
 
@@ -35,6 +35,8 @@
   body {
     background-color: #242424;
     color: #F5F5F5; 
+
+    border: white;
   }
 
   blockquote {
@@ -62,6 +64,8 @@
 @media (prefers-color-scheme: light) {
   body {
     background-color: white;
+
+    border: black; 
   }
 
   blockquote {
@@ -738,7 +742,7 @@ img.no {
 
 .button1 {
   background-color: var(--bg-color); 
-  border: 5px double var(--colour5);
+  border: 5px double var(--colour4);
   border-radius: 25px;
   width: 100%;
 }
@@ -753,7 +757,7 @@ a.button {
 }
 
 body {
-  border: 1px solid black;
+  border: 2px solid;
   border-radius: 25px;
   margin-left: 5%; 
   margin-right: 5%;

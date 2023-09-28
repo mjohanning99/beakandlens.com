@@ -9,9 +9,10 @@
   padding-bottom: 50px;
   margin-left: 150px;
   margin-right: 150px;
-  border: 5px #285430 double;
+  border: 5px rgba(40, 84, 48, 0.2) double;
   border-radius: 25px;
 }
+
 
 @media (prefers-color-scheme: dark) {
   .gallery-row {
@@ -29,7 +30,6 @@
   margin-right: 150px;
 }
 
-/* Create four equal columns that sits next to each other */
 .gallery-column {
   -ms-flex: 33.33%; /* IE10 */
   flex: 33.33%;
@@ -42,7 +42,10 @@
   vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+.gallery-column img:hover {
+  opacity: 0.6;
+}
+
 @media only screen and (max-width: 800px) {
   .gallery-column {
     -ms-flex: 100%;

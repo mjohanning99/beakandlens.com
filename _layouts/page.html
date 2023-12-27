@@ -20,7 +20,7 @@
 				<br>
 			
 				{% if page.with_image %}
-				<img src="{{ page.image }}", width="300", height="350">
+				<img src="{{ page.image }}", width="{{ page.image_width }}", height="{{ page.image_height }}">
 				<br>
 				<i>{{ page.image_subtitle }}</i>
 				<br>

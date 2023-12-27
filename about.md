@@ -8,6 +8,8 @@ meta_description: A page with information about me, Marvin Johanning.
 with_image: true
 image: /assets/images/me.jpg
 image_subtitle: My taking a photo of a White Wagtail
+image_width: 300
+image_height: 350
 
 intro: Welcome to the about page! Here you will find some more in-depth information about myself and this website. If you are confused as to the design of the website, you will also find some answers here! 
 permalink: /about/

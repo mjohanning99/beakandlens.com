@@ -7,6 +7,8 @@ subtitle: An overview of all my photography equipment
 with_image: true
 image: /assets/images/equipment/cameras.jpg
 image_subtitle: A photo of some of my cameras and lenses
+image_width: 500
+image_height: 350
 
 intro: You have reached the equipment information page on my website. Here, you will be able to find information about (and photos of) my photography equipment. I use a variety of lenses and cameras for my photography and will most likely be upgrading equipment down the line as well. So be sure to check back occasionally to see if a new piece of equipment has joined my stash! 
 

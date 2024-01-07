@@ -10,6 +10,9 @@ permalink: /updates/
 ---
 
 <div class="article">
+  <h2>07.01.2024 — Happy New Year!</h2>
+  <p>Happy New Year, everyone! There have not been a lot of updates lately due to the fact that it has been raining nigh-constantly here and I have, thus, been unable to go outside and take photos (my equipment is not waterproof, unfortunately). However, the weather has started clearning up a little bit and I have, once again, been able to start photographing birds. I will also be trying to update the site a bit more by adding things such as a gallery sorted by date (month and year) starting in 2024. </p>
+
   <h2>27.09.2023 — A new home</h2>
   <p>Hello and welcome to the new home of beakandlens.com! I initially created this site in April of 2023 to host my bird and wildlife photography using the open-source project called <q>Piwigo</q>; and even though Piwigo worked, it didn’t work quite as well as I had hoped it would. Not only is it way too bloated for my use case, it also did not have a lot of functionality I needed, such as, for example, the ability to set custom pages (very important for even simple but legally required things such as an <q>Impressum</q>). This meant that I was required to download extensions that added said functionality, but it never worked quite as I had hoped it would.</p>
 
